@@ -1,5 +1,14 @@
 @import "../../../index.scss";
-
+.label{
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $darkShade-100;
+  display: inline-block;
+  width: 100%;
+  max-width: 320px;
+  margin: 12px;
+}
 .data{
   display: block;
   width: 100%;
@@ -16,6 +25,7 @@
   line-height: 2;
   outline: none;
   text-transform: uppercase;
+  margin: 8px 0 0 0;
   &::-webkit-calendar-picker-indicator{
     opacity: 0;
     width: 50%;

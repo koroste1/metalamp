@@ -7,6 +7,8 @@ import Dropdown from "./Components/UI/Dropdown/Dropdown";
 import DropdownData from "./Components/UI/DropdownData/DropdownData";
 import Radio from "./Components/UI/Radio/Radio";
 import Toggle from "./Components/UI/Toggle/Toggle";
+import FindRoom from "./Components/Utils/FindRoom/FindRoom";
+import Header from "./Components/Utils/Header/Header";
 
 type value = {
     value: string;
@@ -38,7 +40,9 @@ function App() {
             {/*<DropdownData name='data' id='data'/>*/}
             {/*<Radio id={'radio'} name={'radio'} labelText={'radio'}/>*/}
             {/*<Radio id={'radio1'} name={'radio'} labelText={'radio1'}/>*/}
-            <Toggle/>
+            {/*<Toggle/>*/}
+            {/*<FindRoom/>*/}
+            <Header/>
         </div>
     );
 }

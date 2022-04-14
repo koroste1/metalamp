@@ -1,0 +1,17 @@
+@import "../../../index.scss";
+
+.nav {
+  display: inline-flex;
+
+  &__item {
+    list-style: none;
+    font-size: 14px;
+    color: $darkShade-50;
+    margin: 12px;
+  }
+}
+
+.enabled {
+  color: $darkShade-100;
+  font-weight: 700;
+}

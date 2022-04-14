@@ -1,0 +1,21 @@
+@import "../../../index.scss";
+
+.textField {
+  background: #FFFFFF;
+  border: 1px solid $darkShade-25;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 13px 15px;
+  outline: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  &::placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

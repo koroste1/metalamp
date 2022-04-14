@@ -1,0 +1,24 @@
+@import "../../../index.scss";
+
+.data{
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid $darkShade-25;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  padding: 12px 0 8px 16px;
+  color:$darkShade-75;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  outline: none;
+  text-transform: uppercase;
+  &::-webkit-calendar-picker-indicator{
+    opacity: 0;
+    width: 50%;
+  }
+}
+

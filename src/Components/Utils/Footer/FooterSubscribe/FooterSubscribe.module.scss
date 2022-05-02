@@ -1,0 +1,13 @@
+@import '../../../../index.scss';
+
+.footerSubscribe {
+  max-width: 260px;
+  &__caption {
+    @include h3Font();
+  }
+  &__text{
+    margin: 20px 0;
+    @include bodyText();
+    line-height: 24px;
+  }
+}

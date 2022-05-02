@@ -9,6 +9,8 @@ import Radio from "./Components/UI/Radio/Radio";
 import Toggle from "./Components/UI/Toggle/Toggle";
 import FindRoom from "./Components/Utils/FindRoom/FindRoom";
 import Header from "./Components/Utils/Header/Header";
+import Footer from "./Components/Utils/Footer/Footer";
+import Copyright from "./Components/Utils/Copyright/Copyright";
 
 type value = {
     value: string;
@@ -26,6 +28,7 @@ function App() {
 
     return (
         <div className="App">
+            <Header/>
             {/*<Button*/}
             {/*    onClick={() => {}}*/}
             {/*    text='Click me'*/}
@@ -41,9 +44,11 @@ function App() {
             {/*<Radio id={'radio'} name={'radio'} labelText={'radio'}/>*/}
             {/*<Radio id={'radio1'} name={'radio'} labelText={'radio1'}/>*/}
             {/*<Toggle/>*/}
-            {/*<FindRoom/>*/}
-            <Header/>
+            <FindRoom/>
+            <Footer/>
+            <Copyright/>
         </div>
+
     );
 }
 

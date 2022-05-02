@@ -4,12 +4,16 @@ type ButtonProps = {
     onClick:()=>void;
     text:string;
     type:"button" | "submit" | "reset" | undefined;
+    painted:boolean;
     disabled?:boolean;
 }
 
-const Button:FC<ButtonProps> = ({onClick, text,type,disabled}) => {
+const Button:FC<ButtonProps> = ({onClick, text,painted, type,disabled}) => {
     return (
-        <button className={classes.button} type={type} onClick={onClick} disabled={disabled}>{text}</button>
+        <button className={`${classes.button} ${painted ? classes.button_painted_true : classes.button_painted_false}`}
+                type={type}
+                onClick={onClick}
+                disabled={disabled}>{text}</button>
     );
 };
 

@@ -1,0 +1,18 @@
+@import '../../../../index.scss';
+
+.footerLinks {
+  &__caption {
+    @include h3Font();
+    margin: 0 0 20px 0;
+  }
+
+  &__linkItem {
+    margin: 0 0 20px 0;
+  }
+
+  &__link {
+    @include bodyText();
+    color: $darkShade-50;
+  }
+
+}
